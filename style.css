@@ -1,0 +1,71 @@
+body{
+    color: aliceblue;
+    background-color: rgb(7, 152, 201);
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 2px;
+    }
+
+section{
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 100px;
+    border-style: inherit;
+}
+
+footer{
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    border-style: initial;
+}
+
+a#link_github{
+    text-decoration: none;
+    color: aliceblue
+}
+#weather-data{
+    display:none;
+}
+
+.button{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+
+.button:hover{
+    background-color: aliceblue;
+    animation:backwards 0.7s;
+    box-shadow: 0px 0px 1px #000;
+}
+
+
+h2{
+    text-align: justify;
+
+}
+
+#foto_country{
+    display: none;
+}
+
+#imagem_clouds{
+    width: 200px;
+    height: 200px;
+    display: none;
+    margin-block-end: 200px;
+}
+
+#div_clouds{
+    display: inline-block;
+    margin-top: -240px;
+    margin-left: 210px;
+
+}
